@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C90D0A5164642F80038ED41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C90D0A4164642F80038ED41 /* UIKit.framework */; };
+		5C90D0A7164642F80038ED41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C90D0A6164642F80038ED41 /* Foundation.framework */; };
+		5C90D0A9164642F80038ED41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C90D0A8164642F80038ED41 /* CoreGraphics.framework */; };
+		5C90D0AF164642F80038ED41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C90D0AD164642F80038ED41 /* InfoPlist.strings */; };
+		5C90D0B1164642F80038ED41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C90D0B0164642F80038ED41 /* main.m */; };
+		5C90D0B5164642F80038ED41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C90D0B4164642F80038ED41 /* AppDelegate.m */; };
+		5C90D0B7164642F80038ED41 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C90D0B6164642F80038ED41 /* Default.png */; };
+		5C90D0B9164642F80038ED41 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C90D0B8164642F80038ED41 /* Default@2x.png */; };
+		5C90D0BB164642F80038ED41 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C90D0BA164642F80038ED41 /* Default-568h@2x.png */; };
+		5C90D0BE164642F80038ED41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C90D0BD164642F80038ED41 /* ViewController.m */; };
+		5C90D0C1164642F80038ED41 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C90D0BF164642F80038ED41 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C90D0A0164642F80038ED41 /* timeZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C90D0A4164642F80038ED41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C90D0A6164642F80038ED41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C90D0A8164642F80038ED41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C90D0AC164642F80038ED41 /* timeZone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timeZone-Info.plist"; sourceTree = "<group>"; };
+		5C90D0AE164642F80038ED41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C90D0B0164642F80038ED41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C90D0B2164642F80038ED41 /* timeZone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timeZone-Prefix.pch"; sourceTree = "<group>"; };
+		5C90D0B3164642F80038ED41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C90D0B4164642F80038ED41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C90D0B6164642F80038ED41 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C90D0B8164642F80038ED41 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C90D0BA164642F80038ED41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5C90D0BC164642F80038ED41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C90D0BD164642F80038ED41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C90D0C0164642F80038ED41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C90D09D164642F80038ED41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C90D0A5164642F80038ED41 /* UIKit.framework in Frameworks */,
+				5C90D0A7164642F80038ED41 /* Foundation.framework in Frameworks */,
+				5C90D0A9164642F80038ED41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C90D095164642F80038ED41 = {
+			isa = PBXGroup;
+			children = (
+				5C90D0AA164642F80038ED41 /* timeZone */,
+				5C90D0A3164642F80038ED41 /* Frameworks */,
+				5C90D0A1164642F80038ED41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C90D0A1164642F80038ED41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C90D0A0164642F80038ED41 /* timeZone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C90D0A3164642F80038ED41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C90D0A4164642F80038ED41 /* UIKit.framework */,
+				5C90D0A6164642F80038ED41 /* Foundation.framework */,
+				5C90D0A8164642F80038ED41 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C90D0AA164642F80038ED41 /* timeZone */ = {
+			isa = PBXGroup;
+			children = (
+				5C90D0B3164642F80038ED41 /* AppDelegate.h */,
+				5C90D0B4164642F80038ED41 /* AppDelegate.m */,
+				5C90D0BC164642F80038ED41 /* ViewController.h */,
+				5C90D0BD164642F80038ED41 /* ViewController.m */,
+				5C90D0BF164642F80038ED41 /* ViewController.xib */,
+				5C90D0AB164642F80038ED41 /* Supporting Files */,
+			);
+			path = timeZone;
+			sourceTree = "<group>";
+		};
+		5C90D0AB164642F80038ED41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C90D0AC164642F80038ED41 /* timeZone-Info.plist */,
+				5C90D0AD164642F80038ED41 /* InfoPlist.strings */,
+				5C90D0B0164642F80038ED41 /* main.m */,
+				5C90D0B2164642F80038ED41 /* timeZone-Prefix.pch */,
+				5C90D0B6164642F80038ED41 /* Default.png */,
+				5C90D0B8164642F80038ED41 /* Default@2x.png */,
+				5C90D0BA164642F80038ED41 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C90D09F164642F80038ED41 /* timeZone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C90D0C4164642F80038ED41 /* Build configuration list for PBXNativeTarget "timeZone" */;
+			buildPhases = (
+				5C90D09C164642F80038ED41 /* Sources */,
+				5C90D09D164642F80038ED41 /* Frameworks */,
+				5C90D09E164642F80038ED41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timeZone;
+			productName = timeZone;
+			productReference = 5C90D0A0164642F80038ED41 /* timeZone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C90D097164642F80038ED41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = kevin;
+			};
+			buildConfigurationList = 5C90D09A164642F80038ED41 /* Build configuration list for PBXProject "timeZone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C90D095164642F80038ED41;
+			productRefGroup = 5C90D0A1164642F80038ED41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C90D09F164642F80038ED41 /* timeZone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C90D09E164642F80038ED41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C90D0AF164642F80038ED41 /* InfoPlist.strings in Resources */,
+				5C90D0B7164642F80038ED41 /* Default.png in Resources */,
+				5C90D0B9164642F80038ED41 /* Default@2x.png in Resources */,
+				5C90D0BB164642F80038ED41 /* Default-568h@2x.png in Resources */,
+				5C90D0C1164642F80038ED41 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C90D09C164642F80038ED41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C90D0B1164642F80038ED41 /* main.m in Sources */,
+				5C90D0B5164642F80038ED41 /* AppDelegate.m in Sources */,
+				5C90D0BE164642F80038ED41 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C90D0AD164642F80038ED41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C90D0AE164642F80038ED41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C90D0BF164642F80038ED41 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C90D0C0164642F80038ED41 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C90D0C2164642F80038ED41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C90D0C3164642F80038ED41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C90D0C5164642F80038ED41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeZone/timeZone-Prefix.pch";
+				INFOPLIST_FILE = "timeZone/timeZone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C90D0C6164642F80038ED41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeZone/timeZone-Prefix.pch";
+				INFOPLIST_FILE = "timeZone/timeZone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C90D09A164642F80038ED41 /* Build configuration list for PBXProject "timeZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C90D0C2164642F80038ED41 /* Debug */,
+				5C90D0C3164642F80038ED41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C90D0C4164642F80038ED41 /* Build configuration list for PBXNativeTarget "timeZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C90D0C5164642F80038ED41 /* Debug */,
+				5C90D0C6164642F80038ED41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C90D097164642F80038ED41 /* Project object */;
+}

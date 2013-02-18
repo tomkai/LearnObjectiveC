@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C21EE6E1649549F00E54AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C21EE6D1649549F00E54AAA /* UIKit.framework */; };
+		5C21EE701649549F00E54AAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C21EE6F1649549F00E54AAA /* Foundation.framework */; };
+		5C21EE721649549F00E54AAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C21EE711649549F00E54AAA /* CoreGraphics.framework */; };
+		5C21EE781649549F00E54AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C21EE761649549F00E54AAA /* InfoPlist.strings */; };
+		5C21EE7A1649549F00E54AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21EE791649549F00E54AAA /* main.m */; };
+		5C21EE7E1649549F00E54AAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21EE7D1649549F00E54AAA /* AppDelegate.m */; };
+		5C21EE801649549F00E54AAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C21EE7F1649549F00E54AAA /* Default.png */; };
+		5C21EE821649549F00E54AAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C21EE811649549F00E54AAA /* Default@2x.png */; };
+		5C21EE841649549F00E54AAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C21EE831649549F00E54AAA /* Default-568h@2x.png */; };
+		5C21EE871649549F00E54AAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21EE861649549F00E54AAA /* ViewController.m */; };
+		5C21EE8A1649549F00E54AAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C21EE881649549F00E54AAA /* ViewController.xib */; };
+		5CA56F80164A6BE400A0A145 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA56F7E164A6BE400A0A145 /* moon.png */; };
+		5CA56F81164A6BE400A0A145 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA56F7F164A6BE400A0A145 /* sun.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C21EE691649549F00E54AAA /* simpleTabview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleTabview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C21EE6D1649549F00E54AAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C21EE6F1649549F00E54AAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C21EE711649549F00E54AAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C21EE751649549F00E54AAA /* simpleTabview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpleTabview-Info.plist"; sourceTree = "<group>"; };
+		5C21EE771649549F00E54AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C21EE791649549F00E54AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C21EE7B1649549F00E54AAA /* simpleTabview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simpleTabview-Prefix.pch"; sourceTree = "<group>"; };
+		5C21EE7C1649549F00E54AAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C21EE7D1649549F00E54AAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C21EE7F1649549F00E54AAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C21EE811649549F00E54AAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C21EE831649549F00E54AAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5C21EE851649549F00E54AAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C21EE861649549F00E54AAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C21EE891649549F00E54AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5CA56F7E164A6BE400A0A145 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = image/moon.png; sourceTree = "<group>"; };
+		5CA56F7F164A6BE400A0A145 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = image/sun.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C21EE661649549F00E54AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C21EE6E1649549F00E54AAA /* UIKit.framework in Frameworks */,
+				5C21EE701649549F00E54AAA /* Foundation.framework in Frameworks */,
+				5C21EE721649549F00E54AAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C21EE5E1649549F00E54AAA = {
+			isa = PBXGroup;
+			children = (
+				5C21EE731649549F00E54AAA /* simpleTabview */,
+				5C21EE6C1649549F00E54AAA /* Frameworks */,
+				5C21EE6A1649549F00E54AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C21EE6A1649549F00E54AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C21EE691649549F00E54AAA /* simpleTabview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C21EE6C1649549F00E54AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C21EE6D1649549F00E54AAA /* UIKit.framework */,
+				5C21EE6F1649549F00E54AAA /* Foundation.framework */,
+				5C21EE711649549F00E54AAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C21EE731649549F00E54AAA /* simpleTabview */ = {
+			isa = PBXGroup;
+			children = (
+				5CA56F82164A738D00A0A145 /* img */,
+				5C21EE7C1649549F00E54AAA /* AppDelegate.h */,
+				5C21EE7D1649549F00E54AAA /* AppDelegate.m */,
+				5C21EE851649549F00E54AAA /* ViewController.h */,
+				5C21EE861649549F00E54AAA /* ViewController.m */,
+				5C21EE881649549F00E54AAA /* ViewController.xib */,
+				5C21EE741649549F00E54AAA /* Supporting Files */,
+			);
+			path = simpleTabview;
+			sourceTree = "<group>";
+		};
+		5C21EE741649549F00E54AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C21EE751649549F00E54AAA /* simpleTabview-Info.plist */,
+				5C21EE761649549F00E54AAA /* InfoPlist.strings */,
+				5C21EE791649549F00E54AAA /* main.m */,
+				5C21EE7B1649549F00E54AAA /* simpleTabview-Prefix.pch */,
+				5C21EE7F1649549F00E54AAA /* Default.png */,
+				5C21EE811649549F00E54AAA /* Default@2x.png */,
+				5C21EE831649549F00E54AAA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA56F82164A738D00A0A145 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5CA56F7E164A6BE400A0A145 /* moon.png */,
+				5CA56F7F164A6BE400A0A145 /* sun.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C21EE681649549F00E54AAA /* simpleTabview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C21EE8D1649549F00E54AAA /* Build configuration list for PBXNativeTarget "simpleTabview" */;
+			buildPhases = (
+				5C21EE651649549F00E54AAA /* Sources */,
+				5C21EE661649549F00E54AAA /* Frameworks */,
+				5C21EE671649549F00E54AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleTabview;
+			productName = simpleTabview;
+			productReference = 5C21EE691649549F00E54AAA /* simpleTabview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C21EE601649549F00E54AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = kevin;
+			};
+			buildConfigurationList = 5C21EE631649549F00E54AAA /* Build configuration list for PBXProject "simpleTabview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C21EE5E1649549F00E54AAA;
+			productRefGroup = 5C21EE6A1649549F00E54AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C21EE681649549F00E54AAA /* simpleTabview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C21EE671649549F00E54AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C21EE781649549F00E54AAA /* InfoPlist.strings in Resources */,
+				5C21EE801649549F00E54AAA /* Default.png in Resources */,
+				5C21EE821649549F00E54AAA /* Default@2x.png in Resources */,
+				5C21EE841649549F00E54AAA /* Default-568h@2x.png in Resources */,
+				5C21EE8A1649549F00E54AAA /* ViewController.xib in Resources */,
+				5CA56F80164A6BE400A0A145 /* moon.png in Resources */,
+				5CA56F81164A6BE400A0A145 /* sun.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C21EE651649549F00E54AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C21EE7A1649549F00E54AAA /* main.m in Sources */,
+				5C21EE7E1649549F00E54AAA /* AppDelegate.m in Sources */,
+				5C21EE871649549F00E54AAA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C21EE761649549F00E54AAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C21EE771649549F00E54AAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C21EE881649549F00E54AAA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C21EE891649549F00E54AAA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C21EE8B1649549F00E54AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C21EE8C1649549F00E54AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C21EE8E1649549F00E54AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleTabview/simpleTabview-Prefix.pch";
+				INFOPLIST_FILE = "simpleTabview/simpleTabview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C21EE8F1649549F00E54AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleTabview/simpleTabview-Prefix.pch";
+				INFOPLIST_FILE = "simpleTabview/simpleTabview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C21EE631649549F00E54AAA /* Build configuration list for PBXProject "simpleTabview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C21EE8B1649549F00E54AAA /* Debug */,
+				5C21EE8C1649549F00E54AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C21EE8D1649549F00E54AAA /* Build configuration list for PBXNativeTarget "simpleTabview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C21EE8E1649549F00E54AAA /* Debug */,
+				5C21EE8F1649549F00E54AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C21EE601649549F00E54AAA /* Project object */;
+}
